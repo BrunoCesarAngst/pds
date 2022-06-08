@@ -1,0 +1,19 @@
+@startuml
+skinparam monochrome reverse
+
+left to right direction
+actor "Usuário" as u
+rectangle Mysys {
+
+  u -- (login)
+
+  u -- (reter informações)
+  u -- (alocar informações)
+  
+  u -- (contextualizar)
+  u -- (operar tarefas)
+  
+  u -- (logout)
+}
+
+@enduml
