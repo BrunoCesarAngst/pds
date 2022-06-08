@@ -1,0 +1,79 @@
+
+UNIVERSIDADE LUTERANA DO BRASIL
+DIRETORIA ACADÊMICA
+CURSO DE ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+PROJETO DE DESENVOLVIMENTO DE SOFTWARE
+
+
+< NOME DO PROJETO>
+
+
+
+
+<NOME DO ACADÊMICO>
+<ORIENTADOR>
+
+
+
+
+
+
+
+
+Torres, 2022
+
+
+O relatório deverá ser redigido em terceira pessoa do singular (impessoal), recuo do parágrafo em 1.25, formato A4, com margens esquerda e superior de 3cm, direita e inferior de 2cm. Espaçamento entre linha de 1.5 e fonte Arial ou Times, tamanho 12. Entregue em pdf (em função da formatação).
+
+A capa deverá seguir ao modelo, devidamente ajustado para o formato de uma lauda. 
+Na sequência deverão ser descritos os campos apresentados abaixo. Tendo o título tamanho 14, negrito e espaçamento depois de 12pt. 
+As imagens deverão possuir legenda superior (Tamanho da fonte 12, centralizada), com numeração sequencial, descrição e fonte inferior (de onde foi retirada a imagem, se for do (equipe), então deve-se inserir Fonte: O Autor. Tamanho da fonte 10, centralizada e em itálico). O texto deverá ser escrito conforme especificações acima. 
+O relatório técnico é sequencial, ou seja, não deve ser inserida quebra de página e deve possuir entre 20 a 25 paginas.
+No relatório técnico deve possui os seguintes itens.
+Identificação da Universidade, estudante e professor orientador(CAPA).
+Introdução (apresentando o contexto do trabalho, motivação e objetivos).
+Descrição da metodologia de desenvolvimento de 'software' utilizada.
+Documentação das fases de análise (diagramas ER, diagrama de casos de uso, diagrama de classes, dicionário de dados e outros que objetivem a modelagem), de projeto (diagramas de estrutura e módulos, fluxos principais, arquitetura, 'interfaces', entre outros necessários para o entendimento).
+Documentação da fase de implementação (linguagem utilizada, banco de dados, entre outros).
+Descrição das funcionalidades.
+Validação e/ou avaliação.
+Referências bibliográficas citadas no texto.
+Anexos e/ou apêndices, se houver. 
+
+Esses tópicos devem constar, porém, seus nomes podem ser alterados, usem a criatividade e podem ser inseridos sub tópicos também. Os relatórios técnicos seguem as normas da ABNT, mas não possuem normas 'fechadas', podemos modificar, porém, o conteúdo deve ser contemplado. 
+Por fim, esse documento já contempla o padrão necessário, basta você seguir o guia de estilos do Google Documentos, figura 1.
+Figura 1. Guia de Estilos.
+
+Fonte: O Autor.
+Na sequência apresento um modelo de como vocês podem usar esses estilos.
+
+
+
+
+
+
+
+INTRODUÇÃO
+Lorem ipsum dolor sit amet. Aut odit mollitia aut debitis minus laboriosam consequatur ea adipisci beatae. Quo sint omnis aut dolorum ratione non corrupti alias?
+Est repudiandae placeat sed officiis eligendi et distinctio doloremque et incidunt maiores hic natus minima ad autem natus ut modi harum. Et nulla rerum aut autem ratione et aliquid commodi ut quod cumque eos accusamus fugit ut nisi minima et quae dicta?
+Et incidunt ullam qui reiciendis delectus ut cumque dolorem. Vel iste amet aut itaque cupiditate qui dolorum tempore quo perspiciatis qui soluta quas distinctio magnam.
+METODOLOGIA
+Lorem ipsum dolor sit amet. Aut odit mollitia aut debitis minus laboriosam consequatur ea adipisci beatae. Quo sint omnis aut dolorum ratione non corrupti alias?
+
+ANALISE
+Lorem ipsum dolor sit amet. Aut odit mollitia aut debitis minus laboriosam consequatur ea adipisci beatae. Quo sint omnis aut dolorum ratione non corrupti alias?
+
+Subtitulo de analise
+Lorem ipsum dolor sit amet. Aut odit mollitia aut debitis minus laboriosam consequatur ea adipisci beatae. Quo sint omnis aut dolorum ratione non corrupti alias?
+Subtitulo de 3 nivel
+Lorem ipsum dolor sit amet. Aut odit mollitia aut debitis minus laboriosam consequatur ea adipisci beatae. Quo sint omnis aut dolorum ratione non corrupti alias?
+DOCUMENTAÇÃO DA FASE DE IMPLEMENTAÇÃO (LINGUAGEM UTILIZADA, BANCO DE DADOS, ENTRE OUTROS).
+Exemplo de como colocar uma figura no texto ou grafico. Primeiro você deve citar ela no texto, por exemplo, a figura 2.
+Figura 2 - Professores do ADS.
+
+Fonte: O Autor
+
+DESCRIÇÃO DAS FUNCIONALIDADES.
+VALIDAÇÃO E/OU AVALIAÇÃO.
+REFERÊNCIAS BIBLIOGRÁFICAS CITADAS NO TEXTO.
+ANEXOS E/OU APÊNDICES, SE HOUVER. 

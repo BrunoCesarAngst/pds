@@ -1,0 +1,26 @@
+@startuml
+skinparam monochrome reverse
+
+left to right direction
+actor "Usuário" as u
+actor "Sistema" as s
+actor "Banco de Dados" as b
+' rectangle Mysys {
+  u -- (logout)
+
+  u -- (login)
+  (login) <.. (descrever uma informação): includes
+  (descrever uma informação) <.. (recupera a informação): extends
+  (recupera a informação) <.. (gravar informação): extends
+  (gerar listas das informações) ..> (recupera a informação): extends
+  (login) <.. (interagir com uma lista de informações): includes
+  (interagir com uma lista de informações) <.. (gerar listas das informações): extends
+  (recupera a informação) -- s
+  (gravar informação) -- s
+  (gravar informação) -- b
+  (gerar listas das informações) -- s
+  (login) -- s
+  (logout) -- s
+' }
+
+@enduml
