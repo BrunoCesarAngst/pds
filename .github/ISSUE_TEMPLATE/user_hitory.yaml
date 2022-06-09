@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         Thank you for taking the time to fill out this user history report!
-        # Obrigado por ter tido tempo para preencher este relatório de histórico do utilizador!
+  # Obrigado por ter tido tempo para preencher este relatório de histórico do utilizador!
   - type: input
     id: contact
     attributes:
