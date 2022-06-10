@@ -67,7 +67,7 @@ body:
       label: Relevant log output
       # Saída de registo relevante
       description: Please copy and paste any relevant log output. Isso será formatado automaticamente em código. Portanto, não há necessidade de barra inversa.
-      render: Markdown
+      render: bash
   - type: checkboxes
     id: terms
     attributes:
