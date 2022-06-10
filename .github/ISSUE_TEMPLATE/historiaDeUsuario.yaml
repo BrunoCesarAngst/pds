@@ -1,6 +1,6 @@
-name: História de Usuário
+name: História de Usuário.
 description: Essa issue é para escrever as histórias de usuário.
-title: "[História de Usuário]: Como um <tipo de usuário>, eu quero <um objetivo> para que eu possa <benefício>."
+title: "[História de Usuário]: "
 labels: ["userHistory"]
 assignees:
   - BrunoCesarAngst
@@ -12,12 +12,23 @@ body:
   - type: textarea
     id: act-user
     attributes:
+      label: História de Usuário.
+      description: O que o usuário quer fazer?
+      placeholder: Coloque aqui as ações do usuário!
+      value: "Como um <tipo de usuário>, eu quero <um objetivo> para que eu possa <benefício>."
+      render: Markdown
+    validations:
+      required: false
+  - type: textarea
+    id: act-user
+    attributes:
       label: Ações do Usuário.
       description: O que o usuário espera que aconteça?
       placeholder: Coloque aqui as ações do usuário!
       value: "- [ ] - "
+      render: Markdown
     validations:
-      required: true
+      required: false
   - type: textarea
     id: act-sis
     attributes:
@@ -25,6 +36,7 @@ body:
       description: O que o sistema faz para estregar o que o usuário espera que aconteça?
       placeholder: Coloque aqui as ações do sistema!
       value: "- [ ] - "
+      render: Markdown
     validations:
       required: true
   - type: dropdown
@@ -37,7 +49,7 @@ body:
         - 1.0.2 (Default)
         - 1.0.3 (Edge)
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: browsers
     attributes:
@@ -55,7 +67,7 @@ body:
       label: Relevant log output
       # Saída de registo relevante
       description: Please copy and paste any relevant log output. Isso será formatado automaticamente em código. Portanto, não há necessidade de barra inversa.
-      render: bash
+      render: Markdown
   - type: checkboxes
     id: terms
     attributes:
@@ -66,4 +78,4 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
         # Eu concordo em seguir o código de conduta deste projeto
-          required: true
+          required: false
