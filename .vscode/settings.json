@@ -1,3 +1,6 @@
 {
-  "docwriter.style": "JSDoc"
+  "docwriter.style": "JSDoc",
+  "yaml.schemas": {
+    "https://json.schemastore.org/pre-commit-config.json": "file:///Users/bruno/www/pds/.github/ISSUE_TEMPLATE/teste.yaml"
+  }
 }
