@@ -10,7 +10,7 @@ body:
       value: |
         História de Usuário é uma descrição concisa de uma necessidade do usuário do produto sob o ponto de vista deste usuário
   - type: textarea
-    id: act-user
+    id: user-story
     attributes:
       label: História de Usuário.
       description: O que o usuário quer fazer?
