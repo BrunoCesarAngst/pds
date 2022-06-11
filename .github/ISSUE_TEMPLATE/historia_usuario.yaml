@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        História de Usuário é uma descrição concisa de uma necessidade do usuário do produto sob o ponto de vista deste usuário
+        História de Usuário é uma descrição concisa de uma necessidade do usuário do produto sob o ponto de vista deste usuário.
   - type: textarea
     id: user-story
     attributes:
@@ -25,7 +25,7 @@ body:
       label: Ações do Usuário.
       description: O que o usuário espera que aconteça?
       placeholder: Coloque aqui as ações do usuário!
-      value: "- [ ] - "
+      # value: "- [ ] - "
       render: Markdown
     validations:
       required: false
@@ -35,47 +35,46 @@ body:
       label: Ações do Sistema.
       description: O que o sistema faz para estregar o que o usuário espera que aconteça?
       placeholder: Coloque aqui as ações do sistema!
-      value: "- [ ] - "
+      # value: "- [ ] - "
       render: Markdown
     validations:
       required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      # Que versão do nosso software está a executar?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: false
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      # Em que navegadores está a ver o problema?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      # Saída de registo relevante
+      label: Algum registo relevante (sh).
       description: Please copy and paste any relevant log output. Isso será formatado automaticamente em código. Portanto, não há necessidade de barra inversa.
-      render: bash
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      # Código de Conduta
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      # Ao submeter esta questão, concorda em seguir o nosso [Código de Conduta](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-        # Eu concordo em seguir o código de conduta deste projeto
-          required: false
+      render: sh
+  # - type: dropdown
+  #   id: version
+  #   attributes:
+  #     label: Version
+  #     description: What version of our software are you running?
+  #     # Que versão do nosso software está a executar?
+  #     options:
+  #       - 1.0.2 (Default)
+  #       - 1.0.3 (Edge)
+  #   validations:
+  #     required: false
+  # - type: dropdown
+  #   id: browsers
+  #   attributes:
+  #     label: What browsers are you seeing the problem on?
+  #     # Em que navegadores está a ver o problema?
+  #     multiple: true
+  #     options:
+  #       - Firefox
+  #       - Chrome
+  #       - Safari
+  #       - Microsoft Edge
+  # - type: checkboxes
+  #   id: terms
+  #   attributes:
+  #     label: Code of Conduct
+  #     # Código de Conduta
+  #     description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+  #     # Ao submeter esta questão, concorda em seguir o nosso [Código de Conduta](https://example.com)
+  #     options:
+  #       - label: I agree to follow this project's Code of Conduct
+  #       # Eu concordo em seguir o código de conduta deste projeto
+  #         required: false
