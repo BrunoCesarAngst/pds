@@ -1,0 +1,80 @@
+name: Épico.
+description: O épico representa uma parte integral do Produto e deve ser suficiente para ter valor de negócio em sua utilização.
+title: "[Épico]: "
+labels: ["Epic"]
+assignees:
+  - BrunoCesarAngst
+body:
+  - type: markdown
+    attributes:
+      value: |
+        O Épico (Epic) é uma grande parte do trabalho a ser realizado no Produto. É também conhecido como uma Grande História de Usuário, da qual expressa de forma macro a necessidade global.
+  - type: textarea
+    id: user-story
+    attributes:
+      label: Épico.
+      description: Épicos devem representar a entrega integral do Produto.
+      placeholder: Coloque aqui algo sobre o épico!
+      value: "Esse épico é ..."
+      render: Markdown
+    validations:
+      required: false
+  # - type: textarea
+  #   id: act-user
+  #   attributes:
+  #     label: Ações do Usuário.
+  #     description: O que o usuário espera que aconteça?
+  #     placeholder: Coloque aqui as ações do usuário!
+  #     # value: "- [ ] - "
+  #     render: Markdown
+  #   validations:
+  #     required: false
+  # - type: textarea
+  #   id: act-sis
+  #   attributes:
+  #     label: Ações do Sistema.
+  #     description: O que o sistema faz para estregar o que o usuário espera que aconteça?
+  #     placeholder: Coloque aqui as ações do sistema!
+  #     # value: "- [ ] - "
+  #     render: Markdown
+  #   validations:
+  #     required: true
+  # - type: textarea
+  #   id: logs
+  #   attributes:
+  #     label: Algum registo relevante (sh).
+  #     description: Please copy and paste any relevant log output. Isso será formatado automaticamente em código. Portanto, não há necessidade de barra inversa.
+  #     render: sh
+  # - type: dropdown
+  #   id: version
+  #   attributes:
+  #     label: Version
+  #     description: What version of our software are you running?
+  #     # Que versão do nosso software está a executar?
+  #     options:
+  #       - 1.0.2 (Default)
+  #       - 1.0.3 (Edge)
+  #   validations:
+  #     required: false
+  # - type: dropdown
+  #   id: browsers
+  #   attributes:
+  #     label: What browsers are you seeing the problem on?
+  #     # Em que navegadores está a ver o problema?
+  #     multiple: true
+  #     options:
+  #       - Firefox
+  #       - Chrome
+  #       - Safari
+  #       - Microsoft Edge
+  # - type: checkboxes
+  #   id: terms
+  #   attributes:
+  #     label: Code of Conduct
+  #     # Código de Conduta
+  #     description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+  #     # Ao submeter esta questão, concorda em seguir o nosso [Código de Conduta](https://example.com)
+  #     options:
+  #       - label: I agree to follow this project's Code of Conduct
+  #       # Eu concordo em seguir o código de conduta deste projeto
+  #         required: false
