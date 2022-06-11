@@ -16,7 +16,7 @@ body:
       description: Para que as features sejam construídas, é preciso que sejam criados os seus componentes primeiro, fazendo com que eles se comuniquem.
       placeholder: Coloque aqui algo sobre o feature!
       value: "Esse feature é ..."
-      render: Markdown
+      # render: Markdown
     validations:
       required: false
   - type: textarea
@@ -26,6 +26,6 @@ body:
       description: A feature é um agrupamento de várias histórias.
       placeholder: Coloque aqui as histórias do usuário!
       # value: "- [ ] - "
-      render: Markdown
+      # render: Markdown
     validations:
       required: true
