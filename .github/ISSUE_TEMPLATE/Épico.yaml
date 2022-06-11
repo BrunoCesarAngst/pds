@@ -16,6 +16,6 @@ body:
       description: Épicos devem representar a entrega integral do Produto.
       placeholder: Coloque aqui algo sobre o épico!
       value: "Esse épico é ..."
-      render: Markdown
+      # render: Markdown
     validations:
-      required: false
+      required: true
