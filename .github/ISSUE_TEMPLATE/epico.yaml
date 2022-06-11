@@ -19,7 +19,7 @@ body:
       value: "Esse épico é ..."
       render: Markdown
     validations:
-      required: true
+      required: false
   - type: textarea
     id: features
     attributes:
@@ -29,4 +29,4 @@ body:
       # value: "- [ ] - "
       render: Markdown
     validations:
-      required: false
+      required: true
