@@ -10,7 +10,7 @@ body:
       value: |
         O Épico (Epic) é uma grande parte do trabalho a ser realizado no Produto. É também conhecido como uma Grande História de Usuário, da qual expressa de forma macro a necessidade global.
   - type: textarea
-    id: user-story
+    id: epic_epic
     attributes:
       label: Épico.
       description: Épicos devem representar a entrega integral do Produto.
