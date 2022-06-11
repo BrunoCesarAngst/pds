@@ -1,0 +1,31 @@
+name: Funcionalidades do projeto.
+description: Features são funcionalidades ou recursos desenvolvidos que tem como propósito adicionar uma nova entrega de valor e experiência para seus usuários.
+title: "[Feature]: "
+labels: ["Feature"]
+assignees:
+  - BrunoCesarAngst
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Uma feature é uma funcionalidade do sistema que entrega um benefício ou resolve um problema real do cliente.
+  - type: textarea
+    id: feature
+    attributes:
+      label: Funcionalidades.
+      description: Para que as features sejam construídas, é preciso que sejam criados os seus componentes primeiro, fazendo com que eles se comuniquem.
+      placeholder: Coloque aqui algo sobre o feature!
+      value: "Esse feature é ..."
+      render: Markdown
+    validations:
+      required: false
+  - type: textarea
+    id: user-story
+    attributes:
+      label: Histórias do usuário.
+      description: A feature é um agrupamento de várias histórias.
+      placeholder: Coloque aqui as histórias do usuário!
+      # value: "- [ ] - "
+      render: Markdown
+    validations:
+      required: true
