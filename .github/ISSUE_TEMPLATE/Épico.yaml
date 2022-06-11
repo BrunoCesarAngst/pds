@@ -1,4 +1,4 @@
-name: Épico.
+name: Épico no projeto.
 description: O épico representa uma parte integral do Produto e deve ser suficiente para ter valor de negócio em sua utilização.
 title: "[Épico]: "
 labels: ["Epic"]
@@ -8,7 +8,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        O Épico (Epic) é uma grande parte do trabalho a ser realizado no Produto. É também conhecido como uma Grande História de Usuário, da qual expressa de forma macro a necessidade global.
+        O Épico (Epic) é uma grande parte do trabalho a ser realizado no Produto.
+        É também conhecido como uma Grande História de Usuário, da qual expressa de forma macro a necessidade global.
   - type: textarea
     id: epic-epic
     attributes:
