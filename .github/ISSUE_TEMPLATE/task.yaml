@@ -1,0 +1,21 @@
+name: Tarefas do projeto.
+description: As Tarefas são funcionalidades ou recursos desenvolvidos que garantem a implementação da história do usuário.
+title: "[Task]: "
+labels: ["Task"]
+assignees:
+  - BrunoCesarAngst
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Uma task deve ser a menor parte de uma funcionalidade do sistema.
+  - type: textarea
+    id: task
+    attributes:
+      label: Tarefas.
+      description: Para que uma task sejam construída, é preciso entender o ponto específico no qual se quer tocar.
+      placeholder: Coloque aqui algo sobre o task!
+      value: "Esse task é ..."
+      render: Markdown
+    validations:
+      required: false
