@@ -1,7 +1,7 @@
 name: História de Usuário.
 description: Essa issue é para escrever as histórias de usuário.
 title: "[História de Usuário]: "
-labels: ["userHistory"]
+labels: ["User_Story"]
 assignees:
   - BrunoCesarAngst
 body:

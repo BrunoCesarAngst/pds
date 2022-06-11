@@ -1,6 +1,6 @@
 name: Funcionalidades do projeto.
 description: Features são funcionalidades ou recursos desenvolvidos que tem como propósito adicionar uma nova entrega de valor e experiência para seus usuários.
-title: "[Feature]: "
+title: "[Funcionalidade]: "
 labels: ["Feature"]
 assignees:
   - BrunoCesarAngst

@@ -1,6 +1,6 @@
 name: Tarefas do projeto.
 description: As Tarefas são funcionalidades ou recursos desenvolvidos que garantem a implementação da história do usuário.
-title: "[Task]: "
+title: "[Tarefa]: "
 labels: ["Task"]
 assignees:
   - BrunoCesarAngst
