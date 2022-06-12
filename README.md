@@ -5,8 +5,6 @@
 [![GitHub issues](https://img.shields.io/github/issues/BrunoCesarAngst/pds?style=for-the-badge)](https://github.com/BrunoCesarAngst/pds/issues)
 [![GitHub forks](https://img.shields.io/github/forks/BrunoCesarAngst/pds?style=for-the-badge)](https://github.com/BrunoCesarAngst/pds/network)
 
-<img src="https://github.com/BrunoCesarAngst.png" alt="exemplo imagem" width="100" height="100">
-
 <!-- Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler. -->
 
 ### Ajustes e melhorias
@@ -73,28 +71,20 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://github.com/BrunoCesarAngst.png" width="100px;" alt="Foto da minha super família."/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Eu no meio</b>
         </sub>
       </a>
     </td>
-    <td align="center">
+    <!-- <td align="center">
       <a href="#">
         <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
         <sub>
           <b>Mark Zuckerberg</b>
         </sub>
       </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
-        </sub>
-      </a>
-    </td>
+    </td> -->
   </tr>
 </table>
 
