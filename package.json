@@ -1,7 +1,7 @@
 {
   "name": "pds",
   "version": "1.0.0",
-  "description": "<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->",
+  "description": "Esse projeto é um projeto de desenvolvimento de software para ajudar as pessoas a serem mais produtivas.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
