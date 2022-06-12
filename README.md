@@ -2,14 +2,12 @@
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-[(https://img.shields.io/badge/mySys-myPDS-brightgreen)]()
-
 [![GitHub issues](https://img.shields.io/github/issues/BrunoCesarAngst/pds?style=for-the-badge)](https://github.com/BrunoCesarAngst/pds/issues)
 [![GitHub forks](https://img.shields.io/github/forks/BrunoCesarAngst/pds?style=for-the-badge)](https://github.com/BrunoCesarAngst/pds/network)
 
-<img src="https://github.com/BrunoCeasarAngst.png" alt="exemplo imagem">
+<img src="https://github.com/BrunoCesarAngst.png" alt="exemplo imagem" width="100" height="100">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+<!-- Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler. -->
 
 ### Ajustes e melhorias
 
