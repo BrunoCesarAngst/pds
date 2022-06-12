@@ -1,60 +1,61 @@
-# Contributing to mySys projects
+# Contribuindo para o projeto mySys
 
-A big welcome and thank you for considering contributing to Auth0 open source projects! It’s people like you that make it a reality for users in our community.
+Uma grande alegria e obrigado por considerar contribuir para os projetos mySys de código aberto! São pessoas como você que o tornam uma realidade para os utilizadores da nossa comunidade.
 
-Reading and following these guidelines will help us make the contribution process easy and effective for everyone involved. It also communicates that you agree to respect the time of the developers managing and developing these open source projects. In return, we will reciprocate that respect by addressing your issue, assessing changes, and helping you finalize your pull requests.
+Ler e seguir estas orientações ajudar-nos-á a tornar o processo de contribuição fácil e eficaz para todos os envolvidos. Também comunica que concorda em respeitar o tempo dos programadores que gerem e desenvolvem estes projetos de código-fonte aberto. Em troca, retribuiremos esse respeito, abordando a sua questão, avaliando as mudanças, e ajudando-o a finalizar os seus pedidos de contribuição.
 
-## Quicklinks
+## Links rápidos
 
-- [Contributing to mySys projects](#contributing-to-mysys-projects)
-  - [Quicklinks](#quicklinks)
-  - [Code of Conduct](#code-of-conduct)
-  - [Getting Started](#getting-started)
+- [Contribuindo para o projeto mySys](#contribuindo-para-o-projeto-mysys)
+  - [Links rápidos](#links-rápidos)
+  - [Código de Conduta](#código-de-conduta)
+  - [Como Começar](#como-começar)
     - [Issues](#issues)
     - [Pull Requests](#pull-requests)
-  - [Getting Help](#getting-help)
 
-## Code of Conduct
+## Código de Conduta
 
-We take our open source community seriously and hold ourselves and other contributors to high standards of communication. By participating and contributing to this project, you agree to uphold our [Code of Conduct](https://github.com/auth0/open-source-template/blob/master/CODE-OF-CONDUCT.md).
+Levamos a sério nossa comunidade de código aberto e nos comprometemos, assim como outros colaboradores, com altos padrões de comunicação. Ao participar e contribuir para este projeto, você concorda em manter nossa comunidade open source. [Código de Conduta](https://github.com/auth0/open-source-template/blob/master/CODE-OF-CONDUCT.md).
 
-## Getting Started
+## Como Começar
 
-Contributions are made to this repo via Issues and Pull Requests (PRs). A few general guidelines that cover both:
+As contribuições são feitas para este repositório através de Issues and Pull Requests (PRs). Algumas diretrizes gerais que cobrem ambos:
 
-- To report security vulnerabilities, please use our [Responsible Disclosure Program](https://auth0.com/whitehat) which is monitored by our security team.
-- Search for existing Issues and PRs before creating your own.
-- We work hard to makes sure issues are handled in a timely manner but, depending on the impact, it could take a while to investigate the root cause. A friendly ping in the comment thread to the submitter or a contributor can help draw attention if your issue is blocking.
-- If you've never contributed before, see [the first timer's guide on our blog](https://auth0.com/blog/a-first-timers-guide-to-an-open-source-project/) for resources and tips on how to get started.
+- Para relatar vulnerabilidades de segurança, favor utilizar nosso [Programa de Divulgação Responsável](https://auth0.com/whitehat), que é monitorado por nossa equipe de segurança.
+- Pesquise os Problemas e PRs existentes antes de criar o seu próprio.
+- Trabalhamos duro para garantir que as questões sejam tratadas em tempo hábil, mas, dependendo do impacto, pode levar algum tempo para investigar a causa raiz. Um "ping" amigável no tópico de comentários para o remetente ou um colaborador pode ajudar a chamar a atenção se seu problema estiver bloqueando.
+- Se você nunca contribuiu antes, veja [o guia do primeiro timer em nosso blog](https://auth0.com/blog/a-first-timers-guide-to-an-open-source-project/) para recursos e dicas sobre como começar.
 
 ### Issues
 
-Issues should be used to report problems with the library, request a new feature, or to discuss potential changes before a PR is created. When you create a new Issue, a template will be loaded that will guide you through collecting and providing the information we need to investigate.
+As issues devem ser usadas para relatar problemas com a biblioteca, solicitar um novo recurso ou para discutir possíveis mudanças antes da criação de uma PR. Quando você criar um novo problema, será carregado um modelo que o orientará na coleta e no fornecimento das informações que precisamos investigar.
 
-If you find an Issue that addresses the problem you're having, please add your own reproduction information to the existing issue rather than creating a new one. Adding a [reaction](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) can also help be indicating to our maintainers that a particular problem is affecting more than just the reporter.
+- Pesquise os issues existentes antes de criar o seu próprio.
+
+Se você encontrar um issue que trate do problema que você está tendo, por favor, adicione suas próprias informações de reprodução ao problema existente, ao invés de criar um novo problema. Adicionando um [reação](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) também pode ajudar a indicar aos nossos mantenedores que um problema específico está afetando mais do que apenas o repórter.
 
 ### Pull Requests
 
-PRs to our libraries are always welcome and can be a quick way to get your fix or improvement slated for the next release. In general, PRs should:
+Os PRs para o projeto são sempre bem-vindos e podem ser uma maneira rápida de ter sua correção ou melhoria programada para o próximo lançamento. Em geral, os PRs devem:
 
-- Only fix/add the functionality in question **OR** address wide-spread whitespace/style issues, not both.
-- Add unit or integration tests for fixed or changed functionality (if a test suite already exists).
-- Address a single concern in the least number of changed lines as possible.
-- Include documentation in the repo or on our [docs site](https://auth0.com/docs).
-- Be accompanied by a complete Pull Request template (loaded automatically when a PR is created).
+- Apenas consertar/adicionar a funcionalidade em questão **OU** tratar de questões de amplo espaço em branco/estilo, não de ambos.
+- Adicionar testes de unidade ou de integração para funcionalidade fixa ou alterada (se já existir um conjunto de testes).
+- Abordar uma única preocupação no menor número possível de linhas alteradas.
+<!-- - Incluir documentação no reporte ou em nosso [site docs](https://auth0.com/docs). -->
+- Ser acompanhado por um modelo completo de Pull Request (carregado automaticamente quando um PR é criado).
 
-For changes that address core functionality or would require breaking changes (e.g. a major release), it's best to open an Issue to discuss your proposal first. This is not required but can save time creating and reviewing changes.
+Para mudanças que abordem a funcionalidade central ou que exijam mudanças de ruptura (por exemplo, um lançamento importante), é melhor abrir um Tema para discutir sua proposta primeiro. Isto não é necessário, mas pode economizar tempo criando e revisando mudanças.
 
-In general, we follow the ["fork-and-pull" Git workflow](https://github.com/susam/gitpr)
+Em geral, nós seguimos o ["fork-and-pull" Git workflow](https://github.com/susam/gitpr)
 
-1. Fork the repository to your own Github account
-2. Clone the project to your machine
-3. Create a branch locally with a succinct but descriptive name
-4. Commit changes to the branch
-5. Following any formatting and testing guidelines specific to this repo
-6. Push changes to your fork
-7. Open a PR in our repository and follow the PR template so that we can efficiently review the changes.
+1. Fork o repositório em sua própria conta Github
+2. Clone o projeto em sua máquina
+3. Criar localmente uma filial com um nome sucinto, mas descritivo
+4. Comprometa-se a fazer mudanças no ramo
+5. Seguindo quaisquer diretrizes de formatação e testes específicos para esta repo
+6. Empurre as mudanças em seu fork.
+7. Abra um PR em nosso repositório e siga o modelo de PR para que possamos rever as mudanças de forma eficiente.
 
-## Getting Help
+<!-- ## Obtendo ajuda
 
-Join us in the [Auth0 Community](https://community.auth0.com) and post your question there in the correct category with a descriptive tag.
+Junte-se a nós na [Auth0 Community](https://community.auth0.com) e coloque sua pergunta na categoria correta com uma etiqueta descritiva. -->
