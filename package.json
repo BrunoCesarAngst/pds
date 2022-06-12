@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Esse projeto é um projeto de desenvolvimento de software para ajudar as pessoas a serem mais produtivas.",
   "author": "Bruno César Angst",
-  "license": "(MIT OR Apache-2.0)",
+  "license": "MIT",
   "homepage": "https://github.com/BrunoCesarAngst/pds#readme",
   "main": "index.js",
   "repository": {
@@ -14,6 +14,9 @@
     "url": "https://github.com/BrunoCesarAngst/pds/issues",
     "email": "bruno.angst@rede.ulbra.br"
   },
+  "keywords": [
+    "browser"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
