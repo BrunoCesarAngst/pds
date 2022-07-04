@@ -1,0 +1,72 @@
+{
+  "id": "id string",
+  "nome": "coisa 1",
+  "detalhe": "string",
+  "arquivo": "id string",
+  "criado": "id string",
+  "editado": "id string",
+  "tipo": {
+    "heAcao": "boolean",
+    "simples": "boolean",
+    "projeto": "boolean",
+    "incubar": "boolean",
+    "lixeira": "boolean",
+    "arquivar": "boolean",
+    "doisMinutos": "boolean",
+    "delegar": {
+      "aQuem": "string",
+      "validade": "number",
+      "status": "boolean"
+    },
+    "adiar": {
+      "datada": {
+        "validade": "data",
+        "status": "boolean"
+      },
+      "contextualizada": {
+        "contextos": {
+          "local": {
+            "rua": "boolean",
+            "casa": "boolean",
+            "trabalho": "boolean",
+            "qualquarLugar": "boolean"
+          },
+          "interacao": [
+            {
+              "nome": "string",
+              "detalhes": "string"
+            }
+          ],
+          "comunicacaoTipo": {
+            "videoChamada": "string",
+            "ligacao": "string",
+            "mensagem": "string"
+          },
+          "dispositivo": {
+            "smartphone": "boolean",
+            "computador": "boolean"
+          },
+          "acao": {[
+            "ler": "boolean",
+            "refletir": "boolean",
+            "responder": "boolean",
+            "observar": "boolean"
+          ]}
+        },
+        "tempoDisponivel": {
+          "janelaTempo": 30
+        },
+        "energiaDisponivel": {
+          "baixa": "boolean",
+          "media": "boolean",
+          "alta": "boolean"
+        },
+        "prioridade": {
+          "baixa": "boolean",
+          "media": "boolean",
+          "alta": "boolean"
+        }
+      }
+    },
+  }
+}

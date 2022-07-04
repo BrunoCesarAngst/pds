@@ -1,0 +1,60 @@
+@startjson
+{ 
+  "meu contexto": {},
+  "coisas":
+  [
+    {
+      "id": "string",
+      "nome": "string",
+      "detalhe": "string",
+      "arquivo": "string",
+      "criado": "string",
+      "editado": "string",
+      "inbox": [false, true],
+      "acionável":
+      {
+        "não": {
+          "incubar": [false, true],
+          "lixeira": [false, true],
+          "arquivar": [false, true]
+        },
+        "sim": {
+          "complexo": {
+            "não": {
+              "simples": {
+                "sim": ["fazer"], 
+                "não": {
+                  "delegar": {
+                    "aQuem": "string",
+                    "validade": "number",
+                    "status": [false, true]
+                  },
+                  "adiar": {
+                    "data": {"validade": "data", "status": [false, true]},
+                    "contexto": {
+                      "local": ["rua", "casa", "trabalho", "qualquarLugar"],
+                      "interacao": [{"nome": "string", "detalhes": "string"}],
+                      "comunicacaoTipo": {
+                        "videoChamada": "string",
+                        "ligacao": "string",
+                        "mensagem": "string"
+                      },
+                      "dispositivo": ["smartphone", "computador"],
+                      "acao": ["ler", "refletir", "responder", "observar"],
+                      "tempoDisponivel": {"janelaTempo": 30},
+                      "energiaDisponivel": ["baixa", "media", "alta"],
+                      "importante": ["baixa", "media", "alta"],
+                      "urgencia": ["baixa", "media", "alta"]
+                    }
+                  }
+                }
+              }
+            },
+            "sim": {"projeto": [false, true]}
+          }
+        }
+      }  
+    }
+  ]
+}
+@endjson

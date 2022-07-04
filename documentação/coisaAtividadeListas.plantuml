@@ -1,0 +1,90 @@
+@startuml
+
+start
+card **mySys** {
+  package dashboard {
+    floating note: O usuário quer ver as listas:
+    split
+    :informações de contextulização;
+    stop
+    split again
+    :inbox;
+    stop
+    split again
+    :capturar uma coisa;
+    stop
+    split again
+    :acessar as listas;
+    split again
+    :fazer logout;
+    stop
+    end split
+    package listas {
+      split
+      package rápidas {
+        ' floating note: O usuário poderá criar um item:
+        ' if (Quer intitular?) then (sim)
+        ' else (não)
+        ' endif
+        :rápidas;
+        kill
+      }
+      split again
+      package incubar {
+        ' floating note: O usuário poderá criar um item:
+        ' if (Quer intitular?) then (sim)
+        ' else (não)
+        ' endif
+        :incubar;
+        kill
+      }
+      split again
+      package arquivar {
+        ' floating note: O usuário poderá criar um item:
+        ' if (Quer intitular?) then (sim)
+        ' else (não)
+        ' endif
+        :arquivar;
+        kill
+      }
+      split again
+      package lixeira {
+        ' floating note: O usuário poderá criar um item:
+        ' if (Quer intitular?) then (sim)
+        ' else (não)
+        ' endif
+        :lixeira;
+        kill
+      }
+      split again
+      package delegadas {
+        ' floating note: O usuário poderá criar um item:
+        ' if (Quer intitular?) then (sim)
+        ' else (não)
+        ' endif
+        :delegada;
+        kills
+      }
+      split again
+      package data {
+        ' floating note: O usuário poderá criar um item:
+        ' if (Quer intitular?) then (sim)
+        ' else (não)
+        ' endif
+        :data;
+        kill
+      }
+      split again
+      package contexto {
+        ' floating note: O usuário poderá criar um item:
+        ' if (Quer intitular?) then (sim)
+        ' else (não)
+        ' endif
+        :contexto;
+        kill
+      }
+      end split
+    }
+  }
+}
+@enduml

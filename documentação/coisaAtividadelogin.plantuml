@@ -1,0 +1,42 @@
+@startuml
+
+start
+floating note: Um usuário através do\nendereço da aplicação
+:Pessoa acessando a [[https://mysys.com aplicação]];
+card **mySys** {
+  package log_in/sign_up {
+    label log
+    if (pagina login) then (email/senha)
+      if (cadastrado) then (sim)
+        :informe o email;
+        ' :informe a senha;
+        if (informe a senha) then (não sei)
+          :esqueceu a senha;
+          :página de redefinir senha;
+          :digite o email;
+          :voltar para login;
+          goto log
+        else
+          :continuar;
+        endif
+      else (não) 
+        :cadastrar-se;
+        if (pagina de sign_up) then (email/senha)
+          :informe o email;
+          :informe a senha;
+          goto log
+        else (usar o Google)
+          :cadastrar-se com Google;
+          goto log
+        endif
+      endif
+    else (usar o Google)
+      :continuar com Google;
+      floating note: linha vermelha indica que\nnesse ponto\nhá o retorno para fazer o login.
+    endif
+  }
+  floating note: Um usuário entrando na aplicação
+  :dashboard;
+  stop
+}
+@enduml

@@ -1,0 +1,54 @@
+@startjson
+{
+  "coisas":
+  [
+    {
+      "id": "string",
+      "nome": "string",
+      "detalhe": "string",
+      "arquivo": "string",
+      "criado": "string",
+      "editado": "string",
+      "inbox": "na lista",
+      "acionável":
+      {
+        "incubar": "na lista",
+        "lixeira": "na lista",
+        "arquivar": "na lista",
+        "complexo": {
+          "simples": {
+            "fazer": "na lista", 
+            "delegar": "na lista",
+            "adiar": {
+              "data": "na lista",
+              "contexto": {
+                "local": "na lista",
+                "interacao": "na lista",
+                "comunicacaoTipo": "na lista",
+                "dispositivo": "na lista",
+                "acao": "na lista",
+                "tempoDisponivel": "na lista",
+                "energiaDisponivel": "na lista",
+                "importante": "na lista",
+                "urgencia": "na lista"
+              }
+            }
+          },
+        "projeto": "na lista"
+        }
+      }  
+    }
+  ],
+  "meu contexto": {
+    "local": "onde estou",
+    "interações": "com quem estou",
+    "comunicação": "por qual veículo me comunicar",
+    "dispositivo": "qual disposivo estou usando",
+    "ação": "qual ação tomar",
+    "tempo": "quanto tempo tenho",
+    "energia": "quanta energia tenho",
+    "importancia": "qual importancia",
+    "urgencia": "qual urgencia"
+  }
+}
+@endjson

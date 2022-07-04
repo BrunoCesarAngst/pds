@@ -1,0 +1,78 @@
+@startuml
+start
+package esclarecer {
+  :esclarecer uma coisa;
+    repeat :há uma ação necessária?;
+      :não;
+      switch (o que queres fazer com isso?)
+      case ( incubar )
+        :incubar para\npensar sobre isso\ndepois;
+      case ( arquivar )
+        :arquivar para\nusar como\nreferência;
+      case ( lixeira )
+        :eliminar isso;
+      endswitch
+      end
+    repeat while (tem uma próxima ação?)
+    ->não;
+    if (faz parte de um projeto existente?) then (sim)
+      :escolha o projeto;
+      if (tem uma próxima ação?) then (sim)
+      :define todas as ações necessárias;
+      :essas ações vão para o inbox;
+      end
+      endif
+    else (não)
+    endif
+  end
+' else (não)
+' endif
+' stop
+' else (não)
+'   if (simples) then (sim)
+'   :lista de\nações rápidas;
+'   stop
+'   else
+'     if (não é simples) then (delegar)
+'     :lista de\nações delegadas;
+'     stop
+'     else
+'       if (adiar) then (data)
+'       :lista de\nações com data;
+'       stop
+'       else (contexto)
+'         :lista de\nações com contextos;
+'         split
+'         :informar um local;
+'         stop
+'         split again
+'         :informar uma interação;
+'         stop
+'         split again
+'         :informar uma comunicacaoTipo;
+'         stop
+'         split again
+'         :informar um dispositivo;
+'         stop
+'         split again
+'         :informar uma ação;
+'         stop
+'         split again
+'         :informar um tempo;
+'         stop
+'         split again
+'         :informar uma energia;
+'         stop
+'         split again
+'         :informar uma importancia;
+'         stop
+'         split again
+'         :informar uma urgencia;
+'         stop
+'         end split
+'       endif
+'     endif
+'   endif
+' endif
+}
+@enduml

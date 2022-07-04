@@ -1,0 +1,112 @@
+@startuml
+start
+:Pessoa acessando o app;
+if (Usuário logado) then (sim)
+else (não)
+  :pagina de cadastro;
+  :pagina de login;
+endif
+' :dashboard;
+split
+:descrever o\nseu contexto;
+:onde estou;
+:com quem estou;
+:em qual dispositivo;
+:que ação quero tomar;
+:quanto tempo tenho;
+:com qual energia estou;
+:qual importancia;
+:qual urgencia;
+stop
+split again
+:ações contextualizadas;
+:lista das ações\nbaseadas no contexto\nindica anteriormente;
+stop
+split again
+:inbox;
+:ver uma lista\ncom itens que não foram\ntratados;
+stop
+split again
+repeat :cadastrar\numa coisa;
+:escrever algo;
+:entitular;
+:áudio;
+:foto;
+:arquivo;
+repeat while (descrito?) is (não)
+-> sim;
+if (acionável) then (sim)
+if (complexo:\n - tem uma próxima ação?) then (sim)
+if (faz parte de um projeto existente?) then (sim)
+else (não)
+endif
+stop
+else (não)
+  if (simples) then (sim)
+  :lista de\nações rápidas;
+  stop
+  else
+    if (não é simples) then (delegar)
+    :lista de\nações delegadas;
+    stop
+    else
+      if (adiar) then (data)
+      :lista de\nações com data;
+      stop
+      else (contexto)
+        :lista de\nações com contextos;
+        split
+        :informar um local;
+        stop
+        split again
+        :informar uma interação;
+        stop
+        split again
+        :informar uma comunicacaoTipo;
+        stop
+        split again
+        :informar um dispositivo;
+        stop
+        split again
+        :informar uma ação;
+        stop
+        split again
+        :informar um tempo;
+        stop
+        split again
+        :informar uma energia;
+        stop
+        split again
+        :informar uma importancia;
+        stop
+        split again
+        :informar uma urgencia;
+        stop
+        end split
+      endif
+    endif
+  endif
+endif
+else (não)
+:arquivar;
+split
+:incubar;
+stop
+split again
+:arquivar;
+stop
+split again
+:lixeira;
+stop
+end split
+endif
+split again
+:acessar as listas;
+stop
+split again
+:fazer logout;
+:encerar a sessão\ndo usuário;
+:pagina de login;
+end
+end split
+@enduml

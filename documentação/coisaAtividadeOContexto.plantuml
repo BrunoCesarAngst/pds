@@ -1,0 +1,73 @@
+@startuml
+
+start
+card **mySys** {
+  package dashboard {
+    floating note: O usuário quer contextualizar
+    split
+    :informações de contextulização;
+    split again
+    :inbox;
+    stop
+    split again
+    :capturar uma coisa;
+    stop
+    split again
+    :acessar as listas;
+    stop
+    split again
+    :fazer logout;
+    stop
+    end split
+  }
+  package contextualizar {
+    floating note: O usuário dará informações\nque descreva o seu contexto, como:
+    if (quer alterar as informções?) then (sim)
+    repeat
+    :diga onde estas?;
+    :com quem estas?;
+    :em qual dispositivo está operando?;
+    :que tipo de ação pretende tomar?;
+    :quanto tempo quer dispor?;
+    :com qual energia estas?;
+    :qual importancia?;
+    :qual urgencia?;
+    repeat while (salvar?) is (não)
+    ->sim;
+    else (não)
+    endif
+  '   label log
+  '   if (pagina login) then (email/senha)
+  '     if (cadastrado) then (sim)
+  '       :informe o email;
+  '       ' :informe a senha;
+  '       if (informe a senha) then (não sei)
+  '         :esqueceu a senha;
+  '         :página de redefinir senha;
+  '         :digite o email;
+  '         :voltar para login;
+  '         goto log
+  '       else
+  '         :continuar;
+  '       endif
+  '     else (não) 
+  '       :cadastrar-se;
+  '       if (pagina de sign_up) then (email/senha)
+  '         :informe o email;
+  '         :informe a senha;
+  '         goto log
+  '       else (usar o Google)
+  '         :cadastrar-se com Google;
+  '         goto log
+  '       endif
+  '     endif
+  '   else (usar o Google)
+  '     :continuar com Google;
+  '     floating note: linha vermelha indica que\nnesse ponto\nhá o retorno para fazer o login.
+  '   endif
+  ' }
+  ' floating note: Um usuário entrando na aplicação
+  ' :dashboard;
+  stop
+}
+@enduml

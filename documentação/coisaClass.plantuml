@@ -1,0 +1,43 @@
+@startuml
+class Coisa {
+  -String id
+  -String nome
+  -String detalhe
+  -String arquivo
+  -Date criado
+  -Date editado
+  -Boolean inbox
+  -Boolean acionavel
+}
+object coisa
+json "<b>JSON" as J {
+  "id": "string",
+  "nome": "string",
+  "detalhe": "string",
+  "arquivo": "string",
+  "criado": "string",
+  "editado": "string",
+  "inbox": "na lista",
+  "acionável": "bool",
+  "incubar": "na lista",
+  "lixeira": "na lista",
+  "arquivar": "na lista",
+  "complexo": "bool",
+  "simples": "bool",
+  "fazer": "na lista", 
+  "delegar": "na lista",
+  "adiar": "bool",
+  "data": "na lista",
+  "contexto": "bool",
+  "local": "na lista",
+  "interacao": "na lista",
+  "comunicacaoTipo": "na lista",
+  "dispositivo": "na lista",
+  "acao": "na lista",
+  "tempoDisponivel": "na lista",
+  "energiaDisponivel": "na lista",
+  "importante": "na lista",
+  "urgencia": "na lista",
+  "projeto": "na lista"
+}
+@enduml

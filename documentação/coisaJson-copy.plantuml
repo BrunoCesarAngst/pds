@@ -1,0 +1,74 @@
+@startjson
+{
+  "id": "string",
+  "nome": "string",
+  "detalhe": "string",
+  "arquivo": "string",
+  "criado": "string",
+  "editado": "string",
+  "tipo": {
+    "heAcao": [true, false],
+    "simples": [true, false],
+    "projeto": [true, false],
+    "incubar": [true, false],
+    "lixeira": [true, false],
+    "arquivar": [true, false],
+    "doisMinutos": [true, false],
+    "delegar": {
+      "aQuem": "string",
+      "validade": "number",
+      "status": [true, false]
+    },
+    "adiar": {
+      "datada": {
+        "validade": "data",
+        "status": [true, false]
+      },
+      "contextualizada": {
+        "contextos": {
+          "local": {
+            "rua": [true, false],
+            "casa": [true, false],
+            "trabalho": [true, false],
+            "qualquarLugar": [true, false]
+          },
+          "interacao": [
+            {
+              "nome": "string",
+              "detalhes": "string"
+            }
+          ],
+          "comunicacaoTipo": {
+            "videoChamada": "string",
+            "ligacao": "string",
+            "mensagem": "string"
+          },
+          "dispositivo": {
+            "smartphone": [true, false],
+            "computador": [true, false]
+          },
+          "acao": {
+            "ler": [true, false],
+            "refletir": [true, false],
+            "responder": [true, false],
+            "observar": [true, false]
+          }
+        },
+        "tempoDisponivel": {
+          "janelaTempo": 30
+        },
+        "energiaDisponivel": {
+          "baixa": [true, false],
+          "media": [true, false],
+          "alta": [true, false]
+        },
+        "prioridade": [
+          "baixa",
+          "media",
+          "alta"
+        ]
+      }
+    }
+  }
+}
+@endjson

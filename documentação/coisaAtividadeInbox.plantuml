@@ -1,0 +1,45 @@
+@startuml
+
+start
+card **mySys** {
+  package dashboard {
+    floating note: O usuário quer ver itens capturados\nque não foram contextualizados
+    split
+    :informações de contextulização;
+    stop
+    split again
+    :inbox;
+    split again
+    :capturar uma coisa;
+    stop
+    split again
+    :acessar as listas;
+    stop
+    split again
+    :fazer logout;
+    stop
+    end split
+    package inbox {
+      :selecionar um item da lista;
+      package "itens da lista de captura" {
+        floating note: O usuário poderá editar os itens\ne/ou contextualiza-los:
+        if (deseja altera-lo) then (sim)
+          :alterar o item;
+          if (salvar) then (sim)
+            if (quer contextualizar esse item?) then (sim)
+              package "contextualizar item" {
+                :contextualizar o item;
+                stop
+              }
+            else (não)
+            endif
+          else (não)
+          endif
+        else (não)
+        endif
+      }
+    }
+    stop
+  }
+}
+@enduml

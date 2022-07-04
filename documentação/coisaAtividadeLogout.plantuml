@@ -1,0 +1,31 @@
+@startuml
+
+start
+card **mySys** {
+  package dashboard {
+    floating note: O usuário quer ver as listas:
+    split
+    :informações de contextulização;
+    stop
+    split again
+    :inbox;
+    stop
+    split again
+    :capturar uma coisa;
+    stop
+    split again
+    :acessar as listas;
+    stop
+    split again
+    :fazer logout;
+    end split
+    if (deseja sair do sistema?) then (não)
+    stop
+    else (sim)
+    endif
+  }
+  package log_in/sign_up {
+    stop
+  }
+}
+@enduml

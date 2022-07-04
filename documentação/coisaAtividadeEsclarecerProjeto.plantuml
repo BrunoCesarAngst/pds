@@ -1,0 +1,88 @@
+@startuml
+start
+
+' ##################
+repeat
+repeat
+:esclarecer uma coisa;
+
+' ##################
+if (é um arquivo!) then ( sim)
+package "é arquivo" {
+  fork
+  :incubar;
+  fork again
+  :arquivo;
+  fork again
+  :lixo;
+  end fork {or}
+  stop
+}
+
+' ##################
+elseif (é um ação simples!) then ( sim)
+package "é uma única ação com um ou mais contextos" {
+  fork
+  :é rápido;
+  fork again
+  :é delagado;
+  stop
+  fork again
+  :tem uma data;
+  stop
+  fork again
+  :contexto;
+  end fork {or}
+
+  fork
+  :tem um ou mais valor para esses contextos;
+  :interação;
+  :dispositivo;
+  :local;
+  :ação;
+  :tipo de comunicação;
+  :arquivos;
+
+  fork again
+  :tem um único valor para esses contextos;
+  :tempo;
+  :energia;
+  :importância;
+  :urgência;
+  end fork {and/or}
+
+  stop
+}
+
+' ##################
+elseif (pertence a algum projeto) then (sim)
+package "item para um projeto existente" {
+  :mostrar projetos existentes;
+  package "atribuir item em um projeto" {
+    :vincular item a um projeto;
+  }
+}
+
+' ##################
+else ( não, é um projeto!)
+package "é projeto com uma ou mais ações" {
+  :recebe uma coisa;
+  :se torna um projeto;
+  package "lista de projetos " {
+    :vira uma lista;
+    package "listar itens nesse projeto" {
+      :recebe outras coisas como itens que lhe pertence;
+      :e essas vão para o inbox para serem esclarecidas;
+      :para serem esclarecidas;
+    }
+  }
+}
+endif
+
+' ##################
+repeat while (tem uma próxima ação?) is ( sim )
+-> não;
+repeat while (esclarecer esse item desse projeto) is ( sim )
+-> não;
+stop
+@enduml
