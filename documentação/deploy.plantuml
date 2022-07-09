@@ -1,0 +1,40 @@
+@startuml
+
+
+
+actor usuário
+
+
+artifact MySys {
+  () "interface do sistema" as i
+  cloud db {
+    database mysql {
+      node 02
+    }
+  }
+  cloud github {
+    cloud vercel {
+      node config {
+        portin p1
+        portout p2
+        file build
+      }
+    }
+    file index.js {
+      component log_in/sig_in {
+        node 01 {
+          portin q1
+          portout q2
+        }
+      }
+    }
+  }
+}
+
+usuário --> i
+i --> p1 
+p1 --> build
+build --> p2
+p2 --> index.js
+
+@enduml

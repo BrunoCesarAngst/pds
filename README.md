@@ -7,6 +7,10 @@
 
 <!-- Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler. -->
 
+## Wiki mySys
+
+Para obter mais detalhes do projeto veja o [Wiki do projeto](https://github.com/BrunoCesarAngst/pds/wiki), aqui há uma compreensão melhor da ideia e do projeto.
+
 ## Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
