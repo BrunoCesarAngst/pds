@@ -17,6 +17,7 @@
   <br>
 
   <img src="https://github.com/BrunoCesarAngst/pds/blob/main/imgGit/image4.jpg" width="100" height="100"/>
+</h3>
 
 <h3 align="center">
 
