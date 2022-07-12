@@ -24,9 +24,11 @@
   <br>
 
   Torres, 2022
-</h3>
 
 <br>
+
+</h3>
+
 
 INTRODUÇÃO
 Qual é o principal recurso que uma pessoa tem para se organizar? A memória. Ai fica outras perguntas. Quantas coisas temos que nos lembrar diariamente? O que precisa ser realmente realizado? Quanto de organização uma pessoa precisa?
@@ -87,5 +89,4 @@ Fonte: O Autor
 DESCRIÇÃO DAS FUNCIONALIDADES.
 VALIDAÇÃO E/OU AVALIAÇÃO.
 REFERÊNCIAS BIBLIOGRÁFICAS CITADAS NO TEXTO.
-ANEXOS E/OU APÊNDICES, SE HOUVER. 
-
+ANEXOS E/OU APÊNDICES, SE HOUVER.
