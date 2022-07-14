@@ -1,0 +1,23 @@
+# Arquivo de Docker Nodejs Simples
+
+# Dockerfile de contêiner duplo para processo de construção separado.
+
+# Estamos começando com a mesma imagem base, mas estamos declarando
+# que este bloco emite uma imagem chamada DEPS que nós
+# não será implantado - ele apenas instala nossos Deps. de YARN
+FROM node:16.15.0-alpine
+
+RUN npm install -g --unsafe-perm prisma
+
+WORKDIR /app
+
+COPY package.json ./
+COPY package-lock.json ./
+COPY .env ./
+COPY prisma ./
+
+RUN npm install
+# RUN prisma migrate dev --name init
+
+# CMD [ "prisma", "migrate", "dev", "--name", "init" ]
+CMD [ "npm", "start" ]
