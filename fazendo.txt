@@ -10,10 +10,10 @@ criei um docker-compose que contém:
   - um gerenciador de conteúdo em banco de dados Adminer
   e levanta minha imagem Dockerfile.dev
 configurei o ORM prisma
+colocar o código em produção Vercel (branch main)
+criei um STAGING do código (branch staging)
+criei um development do código (branch dev)
 
 FAZENDO
-colocar o código em produção Vercel (main)
-criei um STAGING do código (staging)
-criei um development do código (branch dev)
 
 FAZER
