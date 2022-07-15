@@ -12,6 +12,8 @@ criei um docker-compose que contém:
 configurei o ORM prisma
 
 FAZENDO
-colocar o código em produção Vercel
+colocar o código em produção Vercel (main)
+criei um STAGING do código (staging)
+criei um developmente do código (branch dev)
 
 FAZER
