@@ -1,0 +1,17 @@
+
+FEITO
+criei um repositório remoto
+fiz pull desse repositório em minha máquina
+criei um projeto NextJS
+rodei comando NextJS
+criei um container docker para desenvolver (Dockerfile.dev)
+criei um docker-compose que contém:
+  - um servidor de banco de dados MySQL
+  - um gerenciador de conteúdo em banco de dados Adminer
+  e levanta minha imagem Dockerfile.dev
+configurei o ORM prisma
+
+FAZENDO
+colocar o código em produção Vercel
+
+FAZER

@@ -20,17 +20,18 @@
   "scripts": {
     "start_u": "docker-compose up -d",
     "build_d": "docker-compose build",
-    "delete_d": "npm run stop && npm run clean:volumes && npm run clean",
+    "delete_d": "npm run stop && npm run clean:volumes",
     "stop": "docker-compose down",
     "clean": "docker system prune -af",
     "clean:volumes": "docker volume prune -f",
     "seed": "docker exec -it prisma npm run seed",
+    "dev_d": "PORT=3001 next dev",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "docker": "docker-compose up --build --force-recreate",
-    "dockerP": "docker-compose -f docker-compose.production.yml up --build --force-recreate",
+    "dockerP": "docker-compose -f docker-compose.prod.yml up --build --force-recreate",
     "docker_b": "docker build -t mysys .",
     "docker_r": "docker run -p 3000:3000 mysys",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -49,5 +50,8 @@
     "eslint-config-next": "12.2.2",
     "prisma": "4.0.0",
     "typescript": "4.7.4"
+  },
+  "prisma": {
+    "schema":"prisma/schema.prisma"
   }
 }

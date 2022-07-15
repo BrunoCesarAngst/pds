@@ -1,4 +1,4 @@
-// This is your Prisma schema file,
+// This is your Prisma schema file
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
@@ -10,7 +10,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model stuff {
+model Stuff {
   id Int @id @default(autoincrement())
 
   title       String
@@ -18,10 +18,18 @@ model stuff {
 
   createdAt DateTime @default(now())
   updateAt  DateTime @updatedAt
+
+  @@map("stuffs")
 }
 
-model teste {
+model Teste {
   id Int @id @default(autoincrement())
 
-  name String
+  name        String
+  description String
+
+  createdAt DateTime @default(now())
+  updateAt  DateTime @updatedAt
+
+  @@map("testes")
 }
