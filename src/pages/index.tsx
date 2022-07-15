@@ -1,5 +1,5 @@
 function HomePage() {
-  return <div>Welcome to Next.js com typescript STAGING!</div>
+  return <div>Welcome to Next.js com typescript development!</div>
 }
 
 export default HomePage
