@@ -1,4 +1,10 @@
 # .dockerignore file
-.DS_Store
-.next
+Dockerfile
+.dockerignore
 node_modules
+npm-debug.log
+README.md
+.next
+docker
+.git
+.DS_Store
