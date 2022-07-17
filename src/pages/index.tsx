@@ -11,7 +11,7 @@ function HomePage() {
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-      Welcome to Next.js com typescript {session?.user?.name}!
+      Welcome to MYSYS {session?.user?.name}!
     </main>
     <footer className="flex items-center justify-center w-full h-24 border-t">
     <p className="mt-1 text-[11px]">
