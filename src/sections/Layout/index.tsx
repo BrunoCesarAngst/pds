@@ -2,7 +2,11 @@ import Head from "next/head";
 import Footer from "../Footer";
 import Header from "../Header";
 
-export default function Layout({children}) {
+type Props = {
+  children: JSX.Element
+}
+
+export default function Layout({children}: Props) {
   return (
     <>
       <Head>
