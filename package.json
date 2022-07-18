@@ -27,7 +27,7 @@
     "seed": "docker exec -it prisma npm run seed",
     "dev_d": "PORT=3001 next dev",
     "dev": "next dev",
-    "build": "dotenv -e .env.production next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "docker": "docker-compose up --build --force-recreate",
