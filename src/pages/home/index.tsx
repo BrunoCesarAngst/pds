@@ -10,7 +10,7 @@ function HomePage() {
     <Layout>
       <section className="flex flex-col justify-center items-center space-y-10 mt-12 sm:mt-24 md:mt-32">
         <h2 className="text-3xl w-[740px] text-gray-800 text-center leading-normal sm:text-6xl font-bold capitalize dark:text-gray-100 ">Seja Muito bem vindo.</h2>
-         <p className="text-xl sm:text-md text-center text-gray-500 dark:text-gray-200">Fazendo acontecer</p>
+          <p className="text-xl sm:text-md text-center text-gray-500 dark:text-gray-200">Fazendo acontecer</p>
         <button className="btn" type="button" onClick={undefined}>
           {" "}
           Comesse sua história {session?.user?.name}!

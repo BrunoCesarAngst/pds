@@ -2,6 +2,7 @@
 const {
   PHASE_DEVELOPMENT_SERVER,
   PHASE_PRODUCTION_BUILD,
+  PHASE_TEST,
 } = require('next/constants')
 
 module.exports = (phase, { defaultConfig }) => {
@@ -21,15 +22,17 @@ module.exports = (phase, { defaultConfig }) => {
     phase === PHASE_PRODUCTION_BUILD && process.env.STAGING === '1'
 
   console.log(`isDev:${isDev}  isProd:${isProd}   isStaging:${isStaging}`)
-  console.log({PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD, phase})
+  console.log(`A fase é: ${phase}`)
 
   const env = {
     PROJECT_NAME: (() =>{
       if (isDev) return 'mysys_dev'
+      if (isProd) return 'mysys'
       return 'sem fase'
     })(),
     NEXT_PUBLIC_API_URL: (() =>{
       if (isDev) return 'http://localhost:3000'
+      if (isProd) return 'https://mysys-brunoangst.vercel.app/...'
       return 'sem fase'
     })(),
   }
