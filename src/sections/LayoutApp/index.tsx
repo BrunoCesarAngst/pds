@@ -16,11 +16,8 @@ export default function Layout({children}: Props) {
         
       </Head>
 
-      <div className="min-h-screen mx-auto max-w-2xl flex flex-col">
-        <Header />
-        <main className="flex-grow container mx-auto px-4 sm:px-6">
-          {children}
-        </main>
+      <div className="min-h-screen mx-auto flex flex-col">
+        <Tabs />        
         <Footer />
       </div>
     </>

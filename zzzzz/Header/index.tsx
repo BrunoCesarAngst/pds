@@ -1,6 +1,6 @@
 import { MoonIcon, SunIcon } from "@heroicons/react/solid";
 import { useTheme } from "next-themes";
-import DarkMode from "../../components/darkMode";
+import DarkMode from "../DarkMode";
 
 export default function Header() {
   const {systemTheme , theme, setTheme} = useTheme ();
