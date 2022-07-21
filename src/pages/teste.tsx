@@ -1,56 +1,10 @@
-/* eslint-disable @next/next/no-img-element */
-/* This example requires Tailwind CSS v2.0+ */
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
-import { LightningBoltIcon, MoonIcon, SunIcon } from '@heroicons/react/solid'
-import { GetServerSideProps } from 'next'
-import { getSession, useSession, signOut } from 'next-auth/react'
-import { useTheme } from 'next-themes'
-import Image from 'next/image'
-import Link from 'next/link'
-import { Fragment } from 'react'
+import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { BellIcon, MenuIcon, MoonIcon, SunIcon, XIcon } from "@heroicons/react/outline";
+import { useTheme } from "next-themes";
+import { Fragment } from "react";
 
-const navigation = [
-  { name: 'Painel de Controle', href: '#', current: true },
-  { name: 'Caixa de Entrada', href: '#', current: false },
-  { name: 'Listas', href: '#', current: false },
-  { name: 'Projetos', href: '#', current: false },
-  { name: 'Mapa', href: '#', current: false },
-]
-
-// const sign_out = () => {signOut()}
-
-const userNavigation = [
-  { name: 'Your Profile', href: '#' },
-  { name: 'Settings', href: '#' },
-  { name: 'Sign out', onClick: [() => signOut()] },
-]
-
-type ClassNames = string
-
-
-function classNames(...classes: ClassNames[]) {
-  return classes.filter(Boolean).join(' ')
-}
-
-export const getServerSideProps: GetServerSideProps = async (context) => {
-  const session = await getSession(context)
-  console.log({session});
-
-  return {
-    props: {
-      session
-    }
-  }
-}
-
-export default function Tabs() {
-  const {data: session} = useSession()
-
-  const imageUser = session?.user?.image ?? undefined
-
+export default function Teste() {
   const {systemTheme, theme, setTheme} = useTheme();
-  
   const renderThemeChanger = () => {  
     if(systemTheme === theme){
       return (
@@ -128,7 +82,7 @@ export default function Tabs() {
                       >
                         <span className='sr-only'>Abrir o menu do usuário</span>
                         <img className='rounded-full h-8 w-8'
-                          src={imageUser} alt="Logo"
+                          src="/images/eu.png" alt="Logo"
                         />
                       </Menu.Button>
                     </div>
@@ -150,10 +104,9 @@ export default function Tabs() {
                           {renderThemeChanger()}
                         </div>
                         <Menu.Item>
-                          <button
-                            className='block px-4 py-2 text-sm black:text-white'
-                            onClick={async () => {await signOut()}}
-                          > SignOut </button>
+                          <a className='block px-4 py-2 text-sm black:text-white'>
+                            SignOut
+                          </a>
                         </Menu.Item>
                       </Menu.Items>
                     </Transition>
@@ -203,17 +156,17 @@ export default function Tabs() {
               <div className='flex items-center px-5'>
                 <div className='flex-shrink-0'>
                   <img className='rounded-full h-8 w-8'
-                    src={imageUser} alt="Logo"
+                    src="/images/eu.png" alt="Logo"
                   />       
                 </div>
                 <div className='ml-3'>
                   <div
                     className='text-base font-medium leading-none'
-                  >{session?.user?.name}
+                  > Nome
                   </div>
                   <div 
                     className='text-sm font-medium leading-none'
-                  >{session?.user?.email}
+                  >Email
                   </div>
                 </div>
                 <button
@@ -234,7 +187,7 @@ export default function Tabs() {
                 <Disclosure.Button
                   className='block px-3 py-2 rounded-md text-left font-medium hover:text-lg'
                 >
-                  <button onClick={async () => {await signOut()}}>SignOut</button>
+                  <a>SignOut</a>
                 </Disclosure.Button>
               </div>
             </div>

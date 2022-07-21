@@ -41,6 +41,6 @@ module.exports = (phase, { defaultConfig }) => {
   return {
     env,
     nextConfig,
-    output: 'standalone'
+    output: 'standalone',
   }
 }
