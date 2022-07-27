@@ -1,13 +1,11 @@
 import { Disclosure } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/solid";
-import Tabnames from "../../components/Tabnames";
 import Collapsednavbar from "../Collapsednavbar";
 import SuspendedProfile from "../Suspendedprofile";
 import Tabnamebar from "../Tabnamebar";
 
 export default function Navbar() {
 
-  // Tabnames()
 
   return (
     <Disclosure as='nav' className=''>

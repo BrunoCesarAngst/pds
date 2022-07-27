@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Footer from "../Footer";
 import Header from "../Header";
-import Tabs from "../Tabs";
 
 type Props = {
   children: JSX.Element
