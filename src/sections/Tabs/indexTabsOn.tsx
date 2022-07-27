@@ -28,7 +28,6 @@ const userNavigation = [
 
 type ClassNames = string
 
-
 function classNames(...classes: ClassNames[]) {
   return classes.filter(Boolean).join(' ')
 }

@@ -25,7 +25,7 @@
     "clean": "docker system prune -af",
     "clean:volumes": "docker volume prune -f",
     "seed": "docker exec -it prisma npm run seed",
-    "dev_d": "PORT=3001 next dev",
+    "dev_d": "next dev",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

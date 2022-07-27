@@ -31,7 +31,7 @@ module.exports = (phase, { defaultConfig }) => {
       return 'sem fase'
     })(),
     NEXT_PUBLIC_API_URL: (() =>{
-      if (isDev) return 'http://localhost:3000'
+      if (isDev) return 'http://localhost-dev:3000'
       if (isProd) return 'https://mysys-brunoangst.vercel.app/...'
       return 'sem fase'
     })(),
